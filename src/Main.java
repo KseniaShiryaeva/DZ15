@@ -5,9 +5,9 @@ public class Main {
         boolean itsGreenLight = false;
 
         //игроки
-        int speedOfPlayer1 = 5;
-        int speedOfPlayer2 = 4;
-        int speedOfPlayer3 = 2;
+        int speedOfPlayer1 = 9;
+        int speedOfPlayer2 = 2;
+        int speedOfPlayer3 = 7;
 
         // кол-во выбывших
         int count = 0;
