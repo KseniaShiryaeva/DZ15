@@ -2,12 +2,12 @@ public class Main {
     public static void main(String[] args) {
 
         // true-зелёный false-красный
-        boolean itsGreenLight = true;
+        boolean itsGreenLight = false;
 
         //игроки
-        int speedOfPlayer1 = 5;
+        int speedOfPlayer1 = 0;
         int speedOfPlayer2 = 0;
-        int speedOfPlayer3 = 2;
+        int speedOfPlayer3 = 0;
 
         // кол-во выбывших
         int count = 0;
@@ -26,6 +26,10 @@ public class Main {
         }
         // если не красный (значит горит зелёный)
         else {
+            for (int i = 0; i < 3; i++) {
+                //если скорость игрока равна 0 то count увеличивается на 1
+                if (players[i] == 0) count++;
+            }
             System.out.println("Горит зелёный, выбывает " + count + " игроков");
         }
 
