@@ -2,11 +2,11 @@ public class Main {
     public static void main(String[] args) {
 
         // true-зелёный false-красный
-        boolean itsGreenLight = true;
+        boolean itsGreenLight = false;
 
         //игроки
         int speedOfPlayer1 = 5;
-        int speedOfPlayer2 = 0;
+        int speedOfPlayer2 = 4;
         int speedOfPlayer3 = 2;
 
         // кол-во выбывших
