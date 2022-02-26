@@ -16,7 +16,7 @@ public class Main {
         boolean itsGreenLight = false;
 
         //игроки
-        int speedOfPlayer1 = 9;
+        int speedOfPlayer1 = 0;
         int speedOfPlayer2 = 2;
         int speedOfPlayer3 = 7;
 
