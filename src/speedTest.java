@@ -1,3 +1,5 @@
+import org.apache.groovy.contracts.domain.Assertion;
+import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
 
 
@@ -15,6 +17,7 @@ public void   checkingTheSpeedArray () {
 
         int [] actual = {2};
         int [] expected = {2};
+        Assertions.assertArrayEquals(expected, actual);
 
     }
 }
