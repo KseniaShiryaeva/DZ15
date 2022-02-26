@@ -1,5 +1,16 @@
+
+
 public class Main {
-    public static void main(String[] args) {
+    // статические переменные (я не до конца поняла как это сделать)
+
+    static class Collors {
+        static int tsGreenLight;
+        private int speedOfPlayer1;
+        private int speedOfPlayer2;
+        private int speedOfPlayer3;
+
+    }
+        public static void main(String[] args) {
 
         // true-зелёный false-красный
         boolean itsGreenLight = false;
